@@ -17,11 +17,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #7a7a7a;
 }
 .navbar .logo {
     color: orange;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
 }
 .navbar ul {

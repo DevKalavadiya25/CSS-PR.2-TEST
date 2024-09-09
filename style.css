@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7a7a7a;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+.navbar .logo {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar ul:hover{
+    color: aqua;
+    /* background: #000; */
+}
+
+
+.navbar .search-box {
+    display: flex;
+    align-items: center;
+}
+.navbar .search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.navbar .search-box button {
+    padding: 5px 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.content .left {
+    max-width: 50%;
+}
+.content .left h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.content .left h1 span {
+    color: orange;
+}
+.content .left p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+.content .left button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.content .left button:hover{
+    transform: scale(1.01);
+    transition: all 1s;
+    background-color: rgb(184, 125, 17);
+}
+
+.content .right {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow:1px 2px 20px 7px  rgba(198, 160, 63, 0.5);
+
+    
+
+}
+.content .right h2 {
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.content .right h2:hover{
+    background-color: rgb(247, 189, 81);
+    color: #333;
+    transition: all 1.01s;
+}
+
+
+.content .right input[type="text"],
+.content .right input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid orange;
+    background-color: #333;
+    color: white;
+    
+}
+.content .right button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.content .right p {
+    text-align: center;
+    margin: 10px 0;
+}
+.content .right p a {
+    color: orange;
+    text-decoration: none;
+}
+.content .right .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content .right .social-icons a {
+    color: rgb(230, 174, 112);
+    margin: 0 5px;
+    font-size: 28px;
+    
+}
+
+.content .right .social-icons a :hover{
+} 
